@@ -1,13 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
-import './App.css'
+import './assets/css/App.css'
+import Side from './components/Side.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 	return (
 		<>
 			<Routes></Routes>
-			<h2 className="text-5xl font-extrabold text-red-500 underline">
-				Tailwind is working! 🚀
-			</h2>
+			<Side />
+			{/* <Footer /> */}
 		</>
 	)
 }
