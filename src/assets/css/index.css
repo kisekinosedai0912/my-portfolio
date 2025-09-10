@@ -12,3 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+p {
+  color: black;
+}
+
+#theme-toggle{
+  padding: 4px 0 4px;
+}

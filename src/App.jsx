@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom'
 import './assets/css/App.css'
-import Side from './components/Side.jsx'
 import Footer from './components/Footer.jsx'
+import FirstPage from './FirstPage.jsx'
 
 function App() {
 	return (
 		<>
 			<Routes></Routes>
-			<Side />
+			<FirstPage />
 			{/* <Footer /> */}
 		</>
 	)
