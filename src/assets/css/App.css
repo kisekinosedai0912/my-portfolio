@@ -1,8 +1,6 @@
 @import "tailwindcss";
-
 @plugin "tailwindcss-animate";
 @import "tw-animate-css";
-
 @custom-variant dark (&:is(.dark *));
 
 *{
@@ -15,6 +13,10 @@
   width: 100vw;
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 @theme inline {

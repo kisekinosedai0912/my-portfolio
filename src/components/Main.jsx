@@ -1,6 +1,6 @@
 export default function Introduction() {
     return (
-        <main className="w-full px-8 py-6 bg-white dark:bg-black text-gray-800 dark:text-gray-200">
+        <div className="w-full px-8 py-6 bg-white dark:bg-black text-gray-800 dark:text-gray-200">
             <div className="flex flex-col gap-6">
                 {/* Heading */}
                 <h1 className="text-4xl font-extrabold text-red-600 dark:text-red-500">
@@ -40,6 +40,6 @@ export default function Introduction() {
                     Every project I work on challenges me to innovate, problem-solve, and deliver meaningful code that makes a real impact.
                 </p>
             </div>
-        </main>
+        </div>
     );
 }
