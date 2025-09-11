@@ -1,7 +1,7 @@
 export default function Introduction() {
     return (
-        <section className="h-full w-full px-16 py-16 bg-white dark:bg-black text-gray-800 dark:text-gray-200">
-            <div className="w-[97%] flex flex-col gap-6">
+        <main className="w-full px-8 py-6 bg-white dark:bg-black text-gray-800 dark:text-gray-200">
+            <div className="flex flex-col gap-6">
                 {/* Heading */}
                 <h1 className="text-4xl font-extrabold text-red-600 dark:text-red-500">
                     Hi, I'm Jasper Bendol 👋
@@ -26,8 +26,8 @@ export default function Introduction() {
                 {/* Career Journey */}
                 <p className="text-lg leading-relaxed">
                     My first professional role was as a{" "}
-                    <span className="font-semibold">Junior CRM Developer</span>, where I worked with <span className="font-semibold">C#</span> and Microsoft Services, particularly <span className="font-semibold">Azure DevOps</span> to deliver customized CRM solutions for clients. 
-                    This experience taught me the importance of writing maintainable, scalable, and client-focused code while maintaining a collaboration effectively.
+                    <span className="font-semibold">Junior CRM Developer</span>, where I worked with <span className="font-semibold">C#</span> and Microsoft Services, including <span className="font-semibold">Azure DevOps</span> to organize and deliver customized CRM solutions for clients. 
+                    This experience taught me the importance of writing maintainable, scalable, and client-focused code while maintaining collaboration effectively.
                 </p>
 
                 {/* Current Focus & Growth */}
@@ -40,6 +40,6 @@ export default function Introduction() {
                     Every project I work on challenges me to innovate, problem-solve, and deliver meaningful code that makes a real impact.
                 </p>
             </div>
-        </section>
+        </main>
     );
 }

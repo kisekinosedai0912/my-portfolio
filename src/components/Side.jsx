@@ -7,7 +7,7 @@ import Profile from '../assets/img/grad-pic-cropped.jpg'
 
 export default function Header() {
     return (
-        <section className="flex flex-col items-center w-[20%] h-[100dvh] py-6">
+        <aside className="flex flex-col items-center w-[16%] h-full py-6 bg-white dark:bg-black">
             {/* Circle profile */}
             <div className="flex flex-col items-center mb-6">
                 <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-red-600">
@@ -38,6 +38,6 @@ export default function Header() {
                     <FontAwesomeIcon icon={faLinkedin} />
                 </Link>
             </div>
-        </section>
+        </aside>
     )
 };
