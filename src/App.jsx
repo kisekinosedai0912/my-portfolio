@@ -1,18 +1,8 @@
-import { Routes, Route } from 'react-router-dom'
 import './assets/css/App.css'
-import Footer from './components/Footer'
-import FirstPage from './FirstPage'
-import SecondPage from './SecondPage'
+import MainPage from './MainPage'
 
 function App() {
-	return (
-		<>
-			<Routes></Routes>
-			<FirstPage />
-			<SecondPage />
-			{/* <Footer /> */}
-		</>
-	)
+	return (<MainPage />)
 }
 
 export default App

@@ -25,7 +25,6 @@ export default function Skillset() {
 
     return (
         <section className="flex flex-col items-center justify-center gap-6 w-full px-8 py-16">
-            
             {/* Tech Stack Label */}
             <span className="flex items-center gap-3 mb-10">
                 <FaCode className="text-red-700 w-8 h-8" /> 
