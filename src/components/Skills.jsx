@@ -11,7 +11,7 @@ export default function Skills() {
                     <span className="font-semibold">tools </span> 
                     that power the systems and solutions I’ve built.  
                     <br className="hidden md:block" />
-                    Always exploring, always shipping 🚀
+                    Always exploring, always learning
                 </h2>
             </div>
 

@@ -18,7 +18,7 @@ export default function Skillset() {
         "HTML5", 
         "CSS3"
     ];
-    const libraries = ["Axios", "Redux", "Git", "GitHub", "Material UI", "shadcn/ui", "Framer Motion", "React-Icons", "Font Awesome"];
+    const libraries = ["Axios", "Redux", "Swagger", "Git", "GitHub", "Material UI", "shadcn/ui", "Framer Motion", "React-Icons", "Font Awesome"];
     const databases = ["MySQL", "MongoDB"];
     const cloudServices = ["Azure DevOps", "Firebase", "Vercel"];
     const otherTools = ["VS Code", "Visual Studio", "Vite", "Figma"];

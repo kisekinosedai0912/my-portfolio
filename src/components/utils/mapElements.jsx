@@ -2,7 +2,7 @@ import {
   FaReact, FaLaravel, FaNodeJs, FaPhp, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaGithub, FaNpm, FaFigma, FaMicrosoft, FaToolbox, FaFontAwesome 
 } from "react-icons/fa";
 import { 
-  SiReact, SiJavascript, SiExpress, SiJquery, SiJasmine, SiTailwindcss, SiRedux, SiMui, SiShadcnui, SiFramer, SiMysql, SiMongodb, SiFirebase, SiVercel, SiVite 
+  SiReact, SiJavascript, SiExpress, SiJquery, SiJasmine, SiTailwindcss, SiRedux, SiMui, SiShadcnui, SiFramer, SiMysql, SiMongodb, SiFirebase, SiVercel, SiVite, SiSwagger
 } from "react-icons/si";
 import { VscAzureDevops, VscVscode } from "react-icons/vsc";
 import { DiVisualstudio } from "react-icons/di";
@@ -26,6 +26,7 @@ const techIcons = {
     "Material UI": { icon: <SiMui className="text-blue-500 w-8 h-8" /> },
     Axios: { icon: <FaNpm className="text-red-500 w-8 h-8" /> },
     Redux: { icon: <SiRedux className="text-purple-600 w-8 h-8" /> },
+    Swagger: { icon: <SiSwagger className="text-lime-500 w-8 h-8" /> },
     "shadcn/ui": { icon: <SiShadcnui className="text-gray-600 w-8 h-8" /> },
     "React-Icons": { icon: <SiReact className="text-red-600 w-8 h-8" /> },
     "Framer Motion": { icon: <SiFramer className="text-pink-500 w-8 h-8" /> },

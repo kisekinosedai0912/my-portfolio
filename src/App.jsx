@@ -1,5 +1,5 @@
 import './assets/css/App.css'
-import MainPage from './MainPage'
+import MainPage from './MainPage.jsx'
 
 function App() {
 	return (<MainPage />)
