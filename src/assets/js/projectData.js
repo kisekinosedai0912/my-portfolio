@@ -30,72 +30,38 @@ import schedulerSms from '../img/scheduler-sms.png'
 export const projects = [
     {
         title: 'Rosejing Secure Inventory & Semi-POS Management System',
-        imgPaths: {
-            img1: auditLogs,
-            img2: POS,
-            img3: productsPage,
-            img4: dashboardPage,
-            img5: salesLog,
-        },
+        imgPaths: [dashboardPage, productsPage, POS, auditLogs, salesLog],
         alt: 'Inventory POS System',
-        style:'w-full h-full object-cover'
+        style: 'w-full h-full object-cover'
     },
     {
         title: 'SCSHS Web Based Scheduler System with Automated Conflict Resolution',
-        imgPaths: {
-            img1: schedulerEvent,
-            img2: schedulerSched,
-            img3: schedulerResolve,
-            img4: schedulerSms,
-            img5: schedulerConfig,
-        },
+        imgPaths: [schedulerEvent, schedulerResolve, schedulerSms, schedulerSched],
         alt: 'Scheduler System',
-        style:'w-full h-full object-cover'
+        style: 'w-full h-full object-cover'
     },
     {
         title: 'Recycled and Greenery - Points Reward Exchanged System',
-        imgPath: {
-            img1: ragpresDashboard,
-            img2: ragpresCampaign,
-            img3: ragpresSales,
-            img4: ragpresRanking,
-            img5: ragpresShop,
-        },
+        imgPaths: [ragpresDashboard, ragpresCampaign, ragpresRanking, ragpresSales, ragpresShop],
         alt: 'Barangay Community System',
-        style:'w-full h-full object-cover'
+        style: 'w-full h-full object-cover'
     },
     {
         title: 'Student Performance Metrics Management System',
-        imgPaths: {
-            img1: metricsLogin,
-            img2: metricsDashboard,
-            img3: metricsInfo,
-            img4: metricsTeacher,
-            img5: metricsAccount,
-        },
+        imgPaths: [metricsLogin, metricsDashboard, metricsInfo, metricsTeacher, metricsAccount],
         alt: 'School System',
-        style:'w-full h-full object-cover'
+        style: 'w-full h-full object-cover'
     },
     {
         title: 'Fret Muse',
-        imgPaths:{
-            img1: fretmuse,
-            img2: fretmuseSpeech,
-            img3: fretmusScales,
-        },
+        imgPaths: [fretmuse, fretmuseSpeech, fretmusScales],
         alt: 'Guitar Mastery Website',
-        style:'w-full h-full object-cover'
+        style: 'w-full h-full object-cover'
     },
     {
         title: 'Muscle Hub',
-        imgPaths: {
-            img1: gymLogin,
-            img2: gymDashboard,
-            img3: gymMonthly,
-            img4: gymDaily,
-            img5: gymProducts,
-        },
+        imgPaths: [gymLogin, gymDashboard, gymMonthly, gymDaily, gymProducts],
         alt: 'Gym Website',
-        style:'w-full h-full object-cover'
+        style: 'w-full h-full object-cover'
     },
 ]
